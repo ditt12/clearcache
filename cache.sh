@@ -10,6 +10,10 @@ red_text() {
 
 clear
 
+grep "Hardware" /proc/cpuinfo | sed 's/.*/\x1b[32m&\x1b[0m/'
+
+clear
+
 green_text "Menghapus cache aplikasi..."
 
 if [ "$(id -u)" -eq 0 ]; then
