@@ -8,8 +8,9 @@ curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/system.sh | bas
 
 # force stop
 
-```
+```bash
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/rootfs.sh | bash 
 ```
+```basg
 ## non root
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/nonrootfs.sh | bash
