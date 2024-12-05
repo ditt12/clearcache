@@ -7,5 +7,6 @@ curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/cache.sh | bash
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/system.sh | bash
 ```
 # force stop
-## root
+## root ##
+```bash
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/rootfs.sh | bash
