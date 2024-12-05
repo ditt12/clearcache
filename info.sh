@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 bit=$(uname -m | grep -q "64" && echo "64-bit" || echo "32-bit")
 device_name=$(getprop ro.product.model)
 available_storage=$(df -h /data | awk 'NR==2 {print $4}')
