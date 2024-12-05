@@ -12,4 +12,5 @@ curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/system.sh | bas
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/rootfs.sh | bash
 ```
 ## non root ##
+```bash
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/nonrootfs.sh | bash
