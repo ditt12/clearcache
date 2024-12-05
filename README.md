@@ -1,3 +1,7 @@
+# device info
+```bash
+curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/info.sh | bash
+```
 # clearcache
 ```bash
 curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/cache.sh | bash
