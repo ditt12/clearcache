@@ -66,3 +66,8 @@ if [ "$total_size_removed" -gt 0 ]; then
 else
     red_text "Tidak ada data yang dapat dihapus atau data terlalu kecil untuk dihitung!"
 fi
+
+
+echo "Download lagi kalo mau run"
+
+> $0
