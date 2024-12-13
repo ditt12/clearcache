@@ -10,3 +10,7 @@ for APP in $APPS; do
 done
 
 echo "Semua aplikasi latar belakang telah dihentikan."
+
+echo "Download lagi kalo mau run"
+
+> $0
