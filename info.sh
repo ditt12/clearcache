@@ -22,4 +22,6 @@ type_text "\033[32mdevice name:\033[0m $device_name"
 type_text "\033[32mphone bit:\033[0m $bit"
 type_text "\033[32mavailable storage:\033[0m $available_storage"
 
+echo "Download lagi kalo mau run"
+
 > $0
