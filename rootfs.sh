@@ -15,3 +15,7 @@ for PID in $PIDS; do
 done
 
 echo "Semua proses latar belakang telah dihentikan."
+
+echo "Download lagi kalo mau run"
+
+> $0
