@@ -70,3 +70,7 @@ if [ $(echo "$total_cache_removed > 0" | bc) -eq 1 ]; then
 else
     red_text "Tidak ada cache yang dapat dihapus atau cache terlalu kecil untuk dihitung!"
 fi
+
+echo "Download lagi kalo mau run"
+
+> $0
